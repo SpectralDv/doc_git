@@ -11,6 +11,7 @@ git pull https://github.com/...
 git branch -M "main"
 git push --set-upstream origin main
 //input "\" for spec simbol("\@")
+git push https://user:password@github.com/repo/repo.git master
 
 
 3.Add and check files for change in  repository
