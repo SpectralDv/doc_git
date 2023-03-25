@@ -1,12 +1,17 @@
 1.Clon a repository
 git clone https://github.com/...
 
-2.Include to the repository
+2.Include download to the repository 
 mkdir /forgit
 cd /forgit
 git init
 git remote add origin https://github.com/...
 git pull https://github.com/...
+2.1.Add change in repository
+git branch -M "main"
+git push --set-upstream origin main
+//input "\" for spec simbol("\@")
+
 
 3.Add and check files for change in  repository
 3.1.Check files for change to commit
