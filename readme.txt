@@ -7,7 +7,7 @@ cd /forgit
 git init
 git remote add origin https://github.com/...
 git pull https://github.com/...
-
+git pull origin main
 
 3.Add and check files for change in  repository
 3.1.Check files for change to commit
