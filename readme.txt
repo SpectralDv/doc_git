@@ -7,11 +7,6 @@ cd /forgit
 git init
 git remote add origin https://github.com/...
 git pull https://github.com/...
-2.1.Add change in repository
-git branch -M "main"
-git push --set-upstream origin main
-//input "\" for spec simbol("\@")
-git push https://user:password@github.com/repo/repo.git main
 
 
 3.Add and check files for change in  repository
