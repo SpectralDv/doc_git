@@ -1,4 +1,4 @@
-1.Clon a repository
+1.Clon a repository(making 2.)
 git clone https://github.com/... .
 
 2.Include download to the repository 
