@@ -43,6 +43,7 @@ umount /path_local
 
 8.Создание конфига для запуска веб сервера 
 sudo nano /etc/supervisor/conf.d/webserver.conf
+sudo service supervisor restart
 
 "<style>body{background-color:#000;}</style>"
 
