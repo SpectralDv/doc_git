@@ -35,6 +35,8 @@ git reset --hard origin/main
 
 7.Монтирование через конфиг
 sudo nano /etc/fstab
+mount -av
+umount /path_local
 
 8.Создание конфига для запуска веб сервера 
 sudo nano /etc/supervisor/conf.d/webserver.conf
