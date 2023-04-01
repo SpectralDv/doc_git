@@ -12,7 +12,7 @@ git pull origin main
 git reset --hard
 git pull origin main
 
-3.Add and check files for change in  repository
+3.Залить измеения в репозиторий
 3.1.Check files for change to commit
 git status
 3.2.Add change to commit
@@ -26,5 +26,5 @@ git log
 git branch -M 'main'
 git push -u origin 'main'
 
-4.Принудительно
+4.Принудительно 
 git push --force
