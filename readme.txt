@@ -25,3 +25,6 @@ git log
 3.5.Upload to git
 git branch -M 'main'
 git push -u origin 'main'
+
+4.Принудительно
+git push --force
