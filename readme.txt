@@ -45,7 +45,7 @@ umount /path_local
 sudo nano /etc/supervisor/conf.d/webserver.conf
 sudo service supervisor restart
 
-9.
+9.Указать домент и порт супервизору
 sudo nano /etc/supervisor/supervisord.conf
 
 "<style>body{background-color:#000;}</style>"
