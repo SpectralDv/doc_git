@@ -45,3 +45,6 @@ umount /path_local
 sudo nano /etc/supervisor/conf.d/webserver.conf
 
 "<style>body{background-color:#000;}</style>"
+
+server = new
+webserver = old
