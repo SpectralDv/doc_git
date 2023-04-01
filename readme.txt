@@ -32,3 +32,9 @@ git push --force
 5.Принудительный pull
 git fetch --all
 git reset --hard origin/main
+
+7.Монтирование через конфиг
+sudo nano /etc/fstab
+
+8.Создание конфига для запуска веб сервера 
+sudo nano /etc/supervisor/conf.d/webserver.conf
