@@ -1,5 +1,5 @@
 1.Clon a repository
-git clone https://github.com/...
+git clone https://github.com/... .
 
 2.Include download to the repository 
 mkdir /forgit
