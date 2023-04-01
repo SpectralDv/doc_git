@@ -26,5 +26,9 @@ git log
 git branch -M 'main'
 git push -u origin 'main'
 
-4.Принудительно 
+4.Принудительный push
 git push --force
+
+5.Принудительный pull
+git fetch --all
+git reset --hard origin/main
