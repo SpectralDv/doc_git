@@ -33,6 +33,9 @@ git push --force
 git fetch --all
 git reset --hard origin/main
 
+6.Принудительно закрыть сокеты
+/etc/init.d/networking restart
+
 7.Монтирование через конфиг
 sudo nano /etc/fstab
 mount -av
