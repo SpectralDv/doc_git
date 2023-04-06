@@ -56,3 +56,11 @@ webserver = old
 wget https://git.io/vpn -O openvpn-install.sh
 
 /etc/apache2/sites-available/000-default.conf
+
+AccessFileName .htaccess
+
+<Directory "/var/www/html">
+Options FollowSymLinks
+AllowOverride All
+Require all granted
+</Directory>
