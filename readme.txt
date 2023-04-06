@@ -53,14 +53,4 @@ sudo nano /etc/supervisor/supervisord.conf
 server = new
 webserver = old
 
-wget https://git.io/vpn -O openvpn-install.sh
-
-/etc/apache2/sites-available/000-default.conf
-
-AccessFileName .htaccess
-
-<Directory "/var/www/html">
-Options FollowSymLinks
-AllowOverride All
-Require all granted
-</Directory>
+https://blog.sedicomm.com/2018/02/06/kak-ustanovit-i-nastroit-openvpn-server-na-debian-9-za-5-minut/
