@@ -34,7 +34,7 @@ git fetch --all
 git reset --hard origin/main
 
 sudo nano /etc/ssh/sshd_config
-service ssh restart
+sudo service ssh restart
 
 6.Принудительно закрыть сокеты
 /etc/init.d/networking restart
