@@ -33,6 +33,8 @@ git push --force
 git fetch --all
 git reset --hard origin/main
 
+nano /etc/ssh/sshd_config
+
 6.Принудительно закрыть сокеты
 /etc/init.d/networking restart
 
