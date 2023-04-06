@@ -54,3 +54,5 @@ server = new
 webserver = old
 
 https://blog.sedicomm.com/2018/02/06/kak-ustanovit-i-nastroit-openvpn-server-na-debian-9-za-5-minut/
+
+sudo nano /etc/nginx/sites-available/default
