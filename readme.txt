@@ -52,3 +52,5 @@ sudo nano /etc/supervisor/supervisord.conf
 
 server = new
 webserver = old
+
+wget https://git.io/vpn -O openvpn-install.sh
