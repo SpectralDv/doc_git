@@ -54,3 +54,5 @@ server = new
 webserver = old
 
 wget https://git.io/vpn -O openvpn-install.sh
+
+/etc/apache2/sites-available/000-default.conf
