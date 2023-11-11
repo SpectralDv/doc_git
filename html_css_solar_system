@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+body{
+margin-top: 10em;
+background-color: black;
+/* overflow: hidden; */
+/* align-items: center; */
+}
+.icon_title{
+text-align:center;
+color:green;
+}
+.open_vpn{
+margin-top: 1em;
+color: green;
+}
+.solarsystem{
+margin: 0;
+height: 100vh;
+display: flex;
+justify-content: center;
+}
+.container{
+font-size: 10px;
+width: 40em;
+height: 40em;
+position: relative;
+}
+.sun{
+position: absolute;
+top: 15em;
+left: 15em;
+width: 10em;
+height: 10em;
+background-color: yellow;
+border-radius: 50%;
+box-shadow: 0 0 3em white;
+}
+.earth,.moon{
+position: absolute;
+border-style: solid;
+border-color: white
+transparent
+transparent
+transparent;
+border-width: 0.1em 0.1em 0 0;
+border-radius: 50%;
+}
+.earth{
+top: 5em;
+left: 5em;
+width: 30em;
+height: 30em;
+animation: orbit 36.5s linear infinite;
+}
+.moon{
+top: 0;
+right: 0;
+width: 8em;
+height: 8em;
+animation: orbit 2.7s linear infinite;
+}
+.earth::before,
+.moon::before{
+content: '';
+position: absolute;
+border-radius: 50%;
+}
+.earth::before{
+top: 2.8em;
+right: 2.8em;
+width: 3em;
+height: 3em;
+background-color: aqua;
+}
+.moon::before{
+top: 0.8em;
+right: 0.2em;
+width: 1.2em;
+height: 1.2em;
+}
+@keyframes orbit{
+to{
+transform: rotate(360deg);
+}
+}
+</style>
+</head>
+<body>
+<title>spectrtaldev.ru</title>
+
+<h1>
+<div class="icon_title">spectraldev.ru</div>
+</h1>
+<h2>
+<div class="open_vpn">
+<a href=spectraldev.ru/openvpn/udpclient.ovpn download> openvpn </a>
+</div>
+</h2>
+<div class="solarsystem">
+<div class="container">
+<div class="sun"></div>
+<div class="earth">
+<div class="moon"></div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
