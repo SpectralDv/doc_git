@@ -22,7 +22,9 @@ git status
 3.4.Make commit with comment
 git commit -m "comment"
 git log
-3.5.Upload to git
+3.5.add new branch
+git checkout -b mybranch
+3.6.Upload to git
 git branch -M 'main'
 git push -u origin 'main'
 
