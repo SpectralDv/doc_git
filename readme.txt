@@ -1,3 +1,10 @@
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/SpectralDv/c_plus_memory_order.git
+git push -u origin main
+
 1.Clon a repository(making 2.)
 git clone https://github.com/... .
 
