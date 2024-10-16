@@ -1,4 +1,5 @@
 git init
+(.gitignore = [.gitignore .vscode/*])
 git add .
 git add README.md
 git commit -m "first commit"
