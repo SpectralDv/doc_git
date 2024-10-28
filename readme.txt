@@ -71,3 +71,29 @@ https://blog.sedicomm.com/2018/02/06/kak-ustanovit-i-nastroit-openvpn-server-na-
 
 sudo nano /etc/nginx/sites-available/default
 sudo nano /etc/apache2/sites-available/000-default.conf
+
+1.Создайте файл toolchain.cmake: Создайте файл toolchain.cmake в корне проекта с содержимым, соответствующим вашей платформе. Например, для Raspberry Pi 4:
+set(CMAKE_SYSTEM_NAME Linux)
+set(CMAKE_SYSTEM_PROCESSOR arm)
+set(CMAKE_C_COMPILER /usr/bin/arm-linux-gnueabihf-gcc)
+set(CMAKE_CXX_COMPILER /usr/bin/arm-linux-gnueabihf-g++)
+
+1.2.Для Radxa Zero 3W:
+set(CMAKE_SYSTEM_NAME Linux)
+set(CMAKE_SYSTEM_PROCESSOR aarch64)
+set(CMAKE_C_COMPILER /usr/bin/aarch64-linux-gnu-gcc)
+set(CMAKE_CXX_COMPILER /usr/bin/aarch64-linux-gnu-g++)
+
+2.Создайте каталог для сборки:
+mkdir build
+cd build
+
+3.Настройте сборку с помощью CMake:
+cmake -DCMAKE_TOOLCHAIN_FILE=../toolchain.cmake ..
+
+4.Теперь, когда вы настроили CMake, вы можете скомпилировать проект:
+make -j$(nproc)
+
+5.После успешной компиляции вы получите исполняемые файлы, которые можно перенести на ваше устройство Raspberry Pi 4 или Radxa Zero 3W. Используйте scp или rsync для копирования файлов на устройство:
+scp your_executable pi@<raspberry_pi_ip>:/path/to/destination
+
