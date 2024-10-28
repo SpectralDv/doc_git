@@ -72,6 +72,10 @@ https://blog.sedicomm.com/2018/02/06/kak-ustanovit-i-nastroit-openvpn-server-na-
 sudo nano /etc/nginx/sites-available/default
 sudo nano /etc/apache2/sites-available/000-default.conf
 
+
+sudo apt-get install libpcap0.8-dev  
+
+
 1.Создайте файл toolchain.cmake: Создайте файл toolchain.cmake в корне проекта с содержимым, соответствующим вашей платформе. Например, для Raspberry Pi 4:
 set(CMAKE_SYSTEM_NAME Linux)
 set(CMAKE_SYSTEM_PROCESSOR arm)
