@@ -73,6 +73,10 @@ sudo nano /etc/nginx/sites-available/default
 sudo nano /etc/apache2/sites-available/000-default.conf
 
 
+
+sudo snap install --classic code
+
+
 sudo apt-get install libpcap0.8-dev  
 sudo apt-get install pcap*
 sudo apt-get install libpcap-dev
