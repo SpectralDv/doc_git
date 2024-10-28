@@ -74,6 +74,8 @@ sudo nano /etc/apache2/sites-available/000-default.conf
 
 
 sudo apt-get install libpcap0.8-dev  
+sudo apt-get install pcap*
+sudo apt-get install libpcap-dev
 
 
 1.Создайте файл toolchain.cmake: Создайте файл toolchain.cmake в корне проекта с содержимым, соответствующим вашей платформе. Например, для Raspberry Pi 4:
